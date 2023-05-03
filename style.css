@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: linear-gradient(to right, #C70039, #900C3F);
+    /* background-image: url("https://wallpaperaccess.com/full/388261.jpg"); */
+    height: 100vh;
+    display: flex;
+    color: white;
+}
+
+.details-container {
+    flex-grow: 1;
+    margin: 100px;
+    display: flex;
+}
+
+.image {
+    width: 50%;
+    background-image: linear-gradient(to right, #242d42, black);
+}
+
+.menu-container {
+    width: 50%;
+    background-image: linear-gradient(to right, #ffd400, #f0e962);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-right: 10px;
+    text-align: left;
+}
+
+.profile {
+    width: 100%;
+}
+
+.name {
+    font-size: 69px;
+    line-height: 0.9;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -1px;
+    margin-bottom: -15px;
+    align-self: flex-start;
+    background-image: linear-gradient(to right, #43474e, #565b63);
+    width: 100%;
+    text-shadow: 2px 2px black;
+}
+
+.first-letter {
+    font-size:160px;
+}
